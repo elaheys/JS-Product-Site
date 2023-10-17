@@ -59,5 +59,6 @@ const searchPriceHandler = (event) => {
 buttons.forEach(button => {
     button.addEventListener("click" , filterHandler)
 })
+
 searchInput.addEventListener("keyup" , searchHandler);
 priceButton.addEventListener("click" , searchPriceHandler);
